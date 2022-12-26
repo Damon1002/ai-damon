@@ -21,8 +21,8 @@ export default async function handler(
 
     // 这里的input就是在index 文件中的state variable input，也就是用户在前段输入了什么样的问题
     prompt: input,
-    temperature: 0.7,
-    max_tokens: 256,
+    temperature: 0.8,
+    max_tokens: 600,
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0,
